@@ -321,6 +321,10 @@ nav.navbar.bootsnav ul.nav>li>a {
 }
 
 
+.yearly {
+    display: none;
+}
+
 .wrap-sticky {
     position: relative;
     -webkit-transition: all 0.3s ease-in-out;
@@ -1429,7 +1433,7 @@ input:checked + .slider:before {
 #on-label {
 	position: absolute;
 	left: 422px;
-	color: #ccc;
+	color: rgb(245, 99, 62);
 	top: -62px;
 }
 #off-label {
@@ -1551,6 +1555,7 @@ input:checked + .slider:before {
 	margin-top: 17px;
 	width: 100%;
 	font-weight: 300;
+	color: #f5633e;
 	
 }
 
@@ -1621,7 +1626,7 @@ input:checked + .slider:before {
 	color: #fff;
 	text-transform: uppercase;
 	background-color: #f5633e;
-	padding: 5px 85px;
+	padding: 5px 80px;
 	letter-spacing: 1.5px;
 	font-size: 15px;
 	border-radius: 3px;

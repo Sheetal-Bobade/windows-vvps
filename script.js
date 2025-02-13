@@ -98,7 +98,7 @@ document.addEventListener("change" , function PriceUpdation() {
 
   if(toggleSwitch.checked){
     MonthlyPlans.style.display = 'none';
-    YearlyPlans.style.display = 'flex';
+    YearlyPlans.style.display = 'block';
 
     monthlyLabel.classList.remove('active');
     YearlyLabel.classList.add('active');
